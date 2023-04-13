@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+    color: rgb(13, 21, 94);
+}
+.titulo {
+
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    text-align: center;
+    color: rgb(14, 72, 180);
+}
+svg {
+    width: 50px;
+    display: inline;
+}
+html{
+scroll-behavior: smooth;
+margin: 100px;
+
+
+}
+
+
+
