@@ -1,0 +1,60 @@
+
+tr:nth-child(1) {
+    background-color: black;
+    color: white;
+    border: none;
+  }
+  
+  td, th {
+    padding: 20px;
+    text-align: start;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  tr:nth-child(odd):not(:first-child) {
+    background-color: #cccfcd;
+  }
+
+ .YT{
+fill: #CC0000;
+color: white;
+height: 25px;
+
+
+ }
+
+ .TT{
+fill: #1A8CD8;
+color: white;
+height: 25px;
+
+ }
+
+ .IG{
+fill: #EA0C5F;
+height: 25px;
+ }
+
+svg{
+
+    height: 30px;
+
+
+
+}
+
+button{
+background-color: transparent;
+color: transparent;
+border: none;
+}
+ 
+  
+
+
+
+
+  
