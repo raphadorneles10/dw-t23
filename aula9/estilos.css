@@ -1,0 +1,107 @@
+:root {
+  --cor-primaria: rgb(0, 0, 0);
+}
+
+body,
+html {
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.conteiner2 {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  height: 160px;
+  width: 100px;
+  padding-left: 270px;
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+}
+
+.valor {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.valor input {
+
+
+  border-radius: 50px;
+  border: 2px solid var(--cor-primaria);
+  outline: var(--cor-primaria);
+  color: var(--cor-primaria);
+  height: 35px;
+  width: 600px;
+  padding-left: 40px;
+
+}
+
+img {
+  display: flex;
+  justify-content: center;
+}
+
+.conteiner3 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  width: fit-content;
+position: absolute;
+left: 950px;
+top: 330px;
+  
+  padding-right: 15px;
+
+}
+
+.lupinha {
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  bottom: 28px;
+  padding-left: 10px;
+  width: fit-content;
+
+}
+
+
+
+button{
+color: white;
+background-color: rgb(32, 31, 31);
+height: 37px;
+width: 150px;
+
+}
+.botoes{
+  display: flex;
+  align-items: center;
+  padding-left: 170px;
+
+
+}
+.botao{
+margin-right: 7px;
+}
+
+button:hover{
+  cursor: pointer;
+background-color: rgb(65, 65, 65);
+border-color: black;
+}
+input:hover{
+background-color: rgb(187, 185, 185);
+cursor: pointer;
+
+}
+.navegador{
+  width: fit-content;
+}
